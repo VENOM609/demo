@@ -14,7 +14,7 @@ body{
 
 }
 .boxes{
-    
+    padding: 10px;
     position: relative;
     margin: 20px;
     background-color: aliceblue;
@@ -29,17 +29,18 @@ body{
     
 }   
     
-.details1{
-    padding:5%;
+.details{
+    color: rgb(51, 32, 7);
     margin-right: 15px;
     font-style: bold;
     text-align: center;
     font-size: medium;
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .img{
     margin: auto;
+    margin-top: 20px;
     height: 100px;
     width: 90px;
     border-radius: 50%;
@@ -51,29 +52,18 @@ body{
     object-fit: cover;
     text-align: center;
 }    
-.details2{
-    padding: 5%;
-    margin-right: 15px;
-    font-style: bold;
-    text-align: center;
-    font-size: medium;
-    margin-left: 15px;
-    margin-top: 30px;
-}
-.details3{
-    padding: 5%;
-    margin-right: 15px;
-    font-style: bold;
-    font-display: center;
-    text-align: center;
-    font-size: medium;
-    margin-left: 15px;
-    margin-top: 30px;
-}
+
+
 .name{
-    font-size: 24px;
+    color: rgb(185, 145, 13);
+    margin-top: 0px;
+    font-size: 17px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
+}
+#degn{
+    color: rgb(2, 67, 83);
+    font-size: 22px;
 }
